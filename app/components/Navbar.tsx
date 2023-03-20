@@ -14,7 +14,7 @@ interface Navbar {
 }
 export const NAV: Navbar[] = [
   { id: 1, name: "Home", link: "/" },
-  { id: 2, name: "About", link: "#" },
+  { id: 2, name: "About", link: "About" },
   { id: 3, name: "Services", link: "#" },
   { id: 4, name: "Porfolio", link: "#" },
   { id: 5, name: "Contact", link: "#" },

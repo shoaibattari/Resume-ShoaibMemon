@@ -1,22 +1,33 @@
 import React from "react";
 import shoaib from "../hero/hero.jpg";
-import Button from "../Button";
 import Image from "next/image";
 
 function About() {
   return (
     <>
-      <div className="md:flex relative">
-        <div className="md:w-4/6 opacity-90 flex flex-wrap md:justify-center md:px-[10px] px-[20px]">
+      <div className="container md:flex ">
+        <div className=" relative md:w-4/6 opacity-90 flex flex-wrap md:justify-center md:px-[10px] px-[20px]">
           <Image
             src={shoaib}
             width={500}
             height={300}
             alt={"shoiab memon"}
-            className="rounded-full "
+            className="rounded-lg "
           />
+          <div className=" absolute  bg-black bottom-0 right-0 rounded-lg p-1 sm:p-3 lg:p-5 text-center opacity-75">
+            <p className="text-7xl text-white font-bold">8+</p>
+            <p className="text-1xl text-white mt-5">Years Exprience</p>
+          </div>
         </div>
+
         <div className="md:w-4/6 md:px-[96px] px-[20px] ">
+          <div>
+            <h1
+              className="text-5xl text-orange-500 border-l-4 border-orange-500 p-5 font-extrabold mt-5 md:mt-0"
+            >
+              About Me
+            </h1>
+          </div>
           <p className="text-4xl lg:text-6xl xl:text-5xl text-gray-900 md:mt-5 lg:mt-2 font-bold">
             Welcome to Tonu, Best Software Services
           </p>
@@ -31,14 +42,25 @@ function About() {
             created for the bliss of souls like mine. I am so happy, my dear
             friend, so absorbed in the exquisite
           </p>
-          <p className=" text-3xl lg:text-6xl text-gray-500 pt-10 font-semibold font-serif ">
-            <span className="text-emerald-800">SHOAIB </span> MEMON
-          </p>
-          <div className="mt-3">
-            <Button
-              text={"Contact Me"}
-              link={"https://github.com/shoaibattari"}
-            />
+          <div className="flex space-x-10">
+            <div className="box-decoration-clone mt-5">
+              <p className="text-orange-500 text-3xl sm:text-4xl lg:text-6xl font-bold">
+                500+
+              </p>
+              <p className="text-1xl text-gray-500">Projects Completed</p>
+            </div>
+            <div className="box-decoration-clone mt-5">
+              <p className="text-orange-500 text-3xl sm:text-4xl lg:text-6xl   font-bold">
+                52+
+              </p>
+              <p className="text-1xl text-gray-500">Awards Win</p>
+            </div>{" "}
+            <div className="box-decoration-clone mt-5">
+              <p className="text-orange-500 text-3xl sm:text-4xl lg:text-6xl   font-bold">
+                2M+
+              </p>
+              <p className="text-1xl text-gray-500">Happy clients</p>
+            </div>
           </div>
         </div>
       </div>

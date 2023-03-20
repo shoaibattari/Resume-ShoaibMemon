@@ -6,7 +6,7 @@ import shoaib from "../hero/hero.jpg";
 function Hero() {
   return (
     <>
-      <div className="w-full top-0 left-0  ">
+      <div className="w-full top-0 left-0">
         <p className="relative flex justify-center items-center opacity-50 lg:text-9xl md:text-8xl text-5xl  text-gray-200">
           DEVELOPER
         </p>
@@ -34,6 +34,7 @@ function Hero() {
           />
         </div>
       </div>
+
     </>
   );
 }
