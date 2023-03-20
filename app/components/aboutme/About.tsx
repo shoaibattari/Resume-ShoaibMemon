@@ -5,8 +5,8 @@ import Image from "next/image";
 function About() {
   return (
     <>
-      <div className="container md:flex ">
-        <div className=" relative md:w-4/6 opacity-90 flex flex-wrap md:justify-center md:px-[10px] px-[20px]">
+      <div className="lg:flex w-full top-0 left-0 ">
+        <div className=" relative  xl:w-[50%]  opacity-90 lg:flex flex-wrap lg:justify-center lg:px-[96px] md:px-[126px] px-[20px]">
           <Image
             src={shoaib}
             width={500}
@@ -14,17 +14,15 @@ function About() {
             alt={"shoiab memon"}
             className="rounded-lg "
           />
-          <div className=" absolute  bg-black bottom-0 right-0 rounded-lg p-1 sm:p-3 lg:p-5 text-center opacity-75">
+          <div className=" absolute z-10  bg-black bottom-0 right-0 rounded-lg p-1 sm:p-3 lg:p-5 text-center md:mr-14 opacity-75">
             <p className="text-7xl text-white font-bold">8+</p>
             <p className="text-1xl text-white mt-5">Years Exprience</p>
           </div>
         </div>
 
-        <div className="md:w-4/6 md:px-[96px] px-[20px] ">
+        <div className="lg:w-[50%] md:px-[96px] px-[20px]">
           <div>
-            <h1
-              className="text-5xl text-orange-500 border-l-4 border-orange-500 p-5 font-extrabold mt-5 md:mt-0"
-            >
+            <h1 className="text-5xl  text-orange-500 border-l-4 border-orange-500 p-5 font-extrabold mt-5 ">
               About Me
             </h1>
           </div>
@@ -42,7 +40,7 @@ function About() {
             created for the bliss of souls like mine. I am so happy, my dear
             friend, so absorbed in the exquisite
           </p>
-          <div className="flex space-x-10">
+          <div className="flex  md:space-x-2 space-x-5">
             <div className="box-decoration-clone mt-5">
               <p className="text-orange-500 text-3xl sm:text-4xl lg:text-6xl font-bold">
                 500+
