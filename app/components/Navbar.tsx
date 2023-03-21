@@ -25,7 +25,7 @@ function Navbar() {
   return (
     <div className=" w-full top-0 left-0 ">
       <div className="lg:flex items-center justify-between bg-gray-200 py-2 ">
-        <div className="duration-500  hover:-translate-x-3.5 md:px-[96px] px-[20px]">
+        <div className="duration-500  hover:-translate-x-3.5 md:px-[60px] px-[20px]">
           <Link href="/">
             <Image src={logo} width={80} height={40} alt="Logo" />
           </Link>

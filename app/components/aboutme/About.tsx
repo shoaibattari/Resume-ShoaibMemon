@@ -6,27 +6,27 @@ function About() {
   return (
     <>
       <div className="lg:flex w-full top-0 left-0 ">
-        <div className=" relative  xl:w-[50%]  opacity-90 lg:flex flex-wrap lg:justify-center lg:px-[96px] md:px-[126px] px-[20px]">
+        <div className=" relative lg:w-[50%] px-5 md:px-[96px] opacity-90 lg:flex flex-wrap lg:justify-center ">
           <Image
             src={shoaib}
-            width={500}
+            width={400}
             height={300}
             alt={"shoiab memon"}
             className="rounded-lg "
           />
-          <div className=" absolute z-10  bg-black bottom-0 right-0 rounded-lg p-1 sm:p-3 lg:p-5 text-center md:mr-14 opacity-75">
+          <div className=" absolute z-10  bg-black bottom-0 right-0 rounded-lg p-1 sm:p-3 lg:p-5 text-center lg:mr-20 md:mr-56 opacity-75">
             <p className="text-7xl text-white font-bold">8+</p>
             <p className="text-1xl text-white mt-5">Years Exprience</p>
           </div>
         </div>
 
-        <div className="lg:w-[50%] md:px-[96px] px-[20px]">
+        <div className="lg:w-[70%] md:pl-[96px] lg:pl-[1px] lg:pr-[90px] px-[30px]">
           <div>
-            <h1 className="text-5xl  text-orange-500 border-l-4 border-orange-500 p-5 font-extrabold mt-5 ">
+            <h1 className="text-4xl md:text-5xl text-orange-500 border-l-4 border-orange-500 p-5 font-extrabold mt-5 ">
               About Me
             </h1>
           </div>
-          <p className="text-4xl lg:text-6xl xl:text-5xl text-gray-900 md:mt-5 lg:mt-2 font-bold">
+          <p className="text-3xl lg:text-6xl xl:text-6xl text-gray-900 md:mt-5 lg:mt-2 font-bold">
             Welcome to Tonu, Best Software Services
           </p>
           <p className="text-3xl text-gray-400 mt-5 font-semibold font-serif">
@@ -40,20 +40,20 @@ function About() {
             created for the bliss of souls like mine. I am so happy, my dear
             friend, so absorbed in the exquisite
           </p>
-          <div className="flex  md:space-x-2 space-x-5">
-            <div className="box-decoration-clone mt-5">
+          <div className="flex justify-between">
+            <div className="mt-5">
               <p className="text-orange-500 text-3xl sm:text-4xl lg:text-6xl font-bold">
                 500+
               </p>
               <p className="text-1xl text-gray-500">Projects Completed</p>
             </div>
-            <div className="box-decoration-clone mt-5">
+            <div className="mt-5">
               <p className="text-orange-500 text-3xl sm:text-4xl lg:text-6xl   font-bold">
                 52+
               </p>
               <p className="text-1xl text-gray-500">Awards Win</p>
-            </div>{" "}
-            <div className="box-decoration-clone mt-5">
+            </div>
+            <div className="mt-5">
               <p className="text-orange-500 text-3xl sm:text-4xl lg:text-6xl   font-bold">
                 2M+
               </p>

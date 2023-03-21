@@ -12,8 +12,8 @@ function Hero() {
         </p>
       </div>
       <div className="md:flex relative">
-        <div className="md:w-4/6 md:px-[96px] px-[20px] ">
-          <p className="text-6xl lg:text-8xl xl:text-9xl text-gray-900 md:mt-5 lg:mt-2 font-extrabold">
+        <div className="md:w-4/6 md:pl-[96px] px-[20px] ">
+          <p className="text-5xl lg:text-8xl xl:text-9xl text-gray-900 md:mt-5 lg:mt-2 font-extrabold">
             App & Software Developer
           </p>
           <p className=" text-3xl lg:text-6xl text-gray-500 pt-10 font-semibold font-serif ">
@@ -24,10 +24,10 @@ function Hero() {
           </div>
         </div>
 
-        <div className="md:w-4/6 opacity-90 flex flex-wrap md:justify-center md:px-[10px] px-[20px]">
+        <div className="md:w-4/6 opacity-90 flex flex-wrap md:justify-center md:pr-[50px] px-[20px]">
           <Image
             src={shoaib}
-            width={500}
+            width={700}
             height={300}
             alt={"shoiab memon"}
             className="rounded-full "
