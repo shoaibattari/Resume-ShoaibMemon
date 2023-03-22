@@ -3,7 +3,7 @@ import ProjectsCards from "./ProjectsCards";
 
 function Projects() {
   return (
-    <div className="md:px-[96px] px-[20px] ">
+    <div className="md:px-[56px] px-[20px] ">
       <div>
         <div>
           <h1 className=" md:ml-[40%] text-4xl md:text-5xl text-orange-500 border-l-4 border-orange-500 p-5 font-extrabold mt-5 ">
