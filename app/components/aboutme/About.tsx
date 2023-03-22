@@ -16,7 +16,7 @@ function About() {
           />
           <div className=" absolute z-10  bg-black bottom-0 right-0 rounded-lg p-1 sm:p-3 lg:p-5 text-center lg:mr-20 md:mr-56 opacity-75">
             <p className="text-7xl text-white font-bold">8+</p>
-            <p className="text-1xl text-white mt-5">Years Exprience</p>
+            <p className="text-1xl text-white">Years Exprience</p>
           </div>
         </div>
 

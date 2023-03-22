@@ -6,8 +6,8 @@ import { SiGoogleanalytics } from "react-icons/si";
 
 function ServicesCard() {
   return (
-    <div className="flex justify-between mt-10">
-      <div className="bg-gray-100 hover:bg-black border py-24 px-5 w-1/4  hover:text-white mb-5">
+    <div className="grid-cols-1  md:grid md:grid-cols-2 lg:grid-cols-4   mt-10 mb-5">
+      <div className=" bg-gray-100 hover:bg-black border  py-10 md:py-24 px-5   hover:text-white ">
         <div>
           <div>
             <CgWebsite className="text-orange-500 text-7xl" />
@@ -21,7 +21,7 @@ function ServicesCard() {
         </div>
       </div>
 
-      <div className="bg-gray-100 hover:bg-black border py-24 px-5 w-1/4  hover:text-white mb-5">
+      <div className=" bg-gray-100 hover:bg-black border py-10 md:py-24 px-5   hover:text-white ">
         <div>
           <div>
             <FaMobileAlt className="text-orange-500 text-7xl" />
@@ -35,7 +35,7 @@ function ServicesCard() {
         </div>
       </div>
 
-      <div className="bg-gray-100 hover:bg-black border py-24 px-5 w-1/4  hover:text-white mb-5">
+      <div className=" bg-gray-100 hover:bg-black border py-10 md:py-24 px-5    hover:text-white ">
         <div>
           <div>
             <MdOutlineBrandingWatermark className="text-orange-500 text-7xl" />
@@ -49,7 +49,7 @@ function ServicesCard() {
         </div>
       </div>
 
-      <div className="bg-gray-100 hover:bg-black border py-24 px-5 w-1/4  hover:text-white mb-5">
+      <div className=" bg-gray-100 hover:bg-black border py-10 md:py-24 px-5   hover:text-white ">
         <div>
           <div>
             <SiGoogleanalytics className="text-orange-500 text-7xl" />
