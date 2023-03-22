@@ -1,5 +1,5 @@
 import React from "react";
-import shoaib from "../hero/hero.jpg";
+import shoaib from "../hero/hero.png";
 import Image from "next/image";
 
 function About() {
