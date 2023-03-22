@@ -1,6 +1,7 @@
 import React from "react";
 import shoaib from "../hero/hero.png";
 import Image from "next/image";
+import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 
 function About() {
   return (
@@ -12,10 +13,10 @@ function About() {
             width={400}
             height={300}
             alt={"shoiab memon"}
-            className="rounded-lg "
+            className="rounded-lg opacity-70"
           />
           <div className=" absolute z-10  bg-black bottom-0 right-0 rounded-lg p-1 sm:p-3 lg:p-5 text-center lg:mr-20 md:mr-56 opacity-75">
-            <p className="text-7xl text-white font-bold">8+</p>
+            <p className="text-7xl text-white font-bold">2+</p>
             <p className="text-1xl text-white">Years Exprience</p>
           </div>
         </div>
@@ -26,38 +27,25 @@ function About() {
               About Me
             </h1>
           </div>
-          <p className="text-3xl lg:text-6xl xl:text-6xl text-gray-900 md:mt-5 lg:mt-2 font-bold">
-            Welcome to Tonu, Best Software Services
+          <p className="text-3xl lg:text-4xl xl:text-6xl text-gray-900 md:mt-5 lg:mt-2 font-bold">
+            Hey There! I'm <br />
+            <span className=" text-5xl lg:text-7xl text-orange-400 font-serif">
+              SHOAIB MEMON
+            </span>
           </p>
           <p className="text-3xl text-gray-400 mt-5 font-semibold font-serif">
-            I have 8+ years of experiences in Software Development for give you
-            better services
+            <FaQuoteLeft className="text-orange-300  text-2xl" />
+            I am an 30 years old web developer and currently studying in Web3 &
+            Metaverse Program In PIAIC panaverse. <br /> I am front-end web
+            developer with 2+ year of experience.
           </p>
-          <p className="text-2xl mt-5">
-            A wonderful serenity has taken possession of my entire soul, like
-            these sweet mornings of spring which I enjoy with my whole heart. I
-            am alone, and feel the charm of existence in this spot, which was
-            created for the bliss of souls like mine. I am so happy, my dear
-            friend, so absorbed in the exquisite
-          </p>
+          <FaQuoteRight className="text-orange-300 text-2xl " />
           <div className="flex justify-between">
             <div className="mt-5">
               <p className="text-orange-500 text-3xl sm:text-4xl lg:text-6xl font-bold">
-                500+
+                10+
               </p>
               <p className="text-1xl text-gray-500">Projects Completed</p>
-            </div>
-            <div className="mt-5">
-              <p className="text-orange-500 text-3xl sm:text-4xl lg:text-6xl   font-bold">
-                52+
-              </p>
-              <p className="text-1xl text-gray-500">Awards Win</p>
-            </div>
-            <div className="mt-5">
-              <p className="text-orange-500 text-3xl sm:text-4xl lg:text-6xl   font-bold">
-                2M+
-              </p>
-              <p className="text-1xl text-gray-500">Happy clients</p>
             </div>
           </div>
         </div>

@@ -17,7 +17,7 @@ function Hero() {
             App & Software Developer
           </p>
           <p className=" text-3xl lg:text-6xl text-gray-500 pt-10 font-semibold font-serif ">
-            <span className="text-emerald-800">SHOAIB </span> MEMON
+            <span className="text-orange-500">SHOAIB </span> MEMON
           </p>
           <div className="mt-3">
             <Button text={"Contact Me"} link={"https://github.com/shoaibattari"} />
