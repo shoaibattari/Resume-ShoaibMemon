@@ -26,7 +26,7 @@ function Skills() {
           </div>
 
           {/* right section */}
-          <div className="w-[40%]  ">
+          <div className="w-[40%]">
             <div className="mt-5 flex">
               <p className="text-orange-500 text-3xl sm:text-4xl lg:text-6xl font-bold">
                HTML

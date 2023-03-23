@@ -28,7 +28,7 @@ function About() {
             </h1>
           </div>
           <p className="text-3xl lg:text-4xl xl:text-6xl text-gray-900 md:mt-5 lg:mt-2 font-bold">
-            Hey There! I'm <br />
+            Hey There! I am <br />
             <span className=" text-5xl lg:text-7xl text-orange-400 font-serif">
               SHOAIB MEMON
             </span>
