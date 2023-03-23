@@ -40,32 +40,30 @@ const projects: Proj[] = [
     Site: "https://todo-app-shoaibmemon-gmailcom.vercel.app/",
     Github: "https://github.com/shoaibattari/TODO-APP-NEXTJS",
   },
-  // {
-  //   id: 4,
-  //   Image: "/WEBDESIGN4.webp",
-  //   Alt: "WebDesign4",
-  //   text1: "APP DESIGN",
-  //   text2: "Marketing Website Design",
-  // },
-  // {
-  //   id: 5,
-  //   Image: "/WEBDESIGN5.webp",
-  //   Alt: "WebDesign5",
-  //   text1: "WEB DESIGN",
-  //   text2: "Charity Website Design",
-  // },
-  // {
-  //   id: 6,
-  //   Image: "/WEBDESIGN6.webp",
-  //   Alt: "WebDesign6",
-  //   text1: "WEB APP",
-  //   text2: "Ecommarce Website Design",
-  // },
+  {
+    id: 4,
+    Image: "/Pricing-Ui-Chakra.webp",
+    Alt: "WebDesign4",
+    text1: "WEB DESIGN",
+    text2: "Pricing Ui Chakra Ui",
+    Site: "https://next-js-pricing-ui.vercel.app/",
+    Github: "https://github.com/shoaibattari/next-js-pricing-ui",
+  },
+  {
+    id: 5,
+    Image: "/10-cli-project.webp",
+    Alt: "WebDesign5",
+    text1: "WEB DESIGN",
+    text2: "10 Typescript Cli Projects ",
+    Site: "https://www.npmjs.com/~shoaibmemon",
+    Github: "https://github.com/shoaibattari/typescript-cli-projects",
+  },
+  //
 ];
 
 function ProjectsCards() {
   return (
-    <div className="grid-cols-1  md:grid md:grid-cols-2 lg:grid-cols-3  ">
+    <div className="grid-cols-1  md:grid md:grid-cols-2 lg:grid-cols-3   ">
       {projects.map((ele) => (
         <div className="border-2 rounded-md pb-5 m-5 mt-10" key={ele.id}>
           <div>
@@ -80,7 +78,7 @@ function ProjectsCards() {
 
           <div className="p-5 ">
             <h3 className="text-gray-400 font-serif ">{ele.text1}</h3>
-            <h2 className=" text-2xl font-bold text-gray-800 hover:text-orange-500 h-14 mt-2">
+            <h2 className=" text-3xl font-bold text-gray-800 hover:text-orange-500 h-14 mt-2">
               {ele.text2}
             </h2>
           </div>

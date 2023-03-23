@@ -7,7 +7,7 @@ function Hero() {
   return (
     <>
       <div className="w-full top-0 left-0">
-        <p className="relative flex justify-center items-center opacity-50 lg:text-9xl md:text-8xl text-5xl  text-gray-200">
+        <p className="relative flex justify-center items-center opacity-50 lg:text-9xl md:text-8xl text-5xl  text-gray-200 animate-bounce ">
           DEVELOPER
         </p>
       </div>

@@ -1,10 +1,6 @@
 import React from "react";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
-import shoaib from "../hero/hero.png";
-import Image from "next/image";
-import { AiFillHtml5 } from "react-icons/ai";
-import { FaCss3Alt } from "react-icons/fa";
-import { TbBrandJavascript } from "react-icons/tb";
+
 
 function Skills() {
   return (
@@ -15,9 +11,9 @@ function Skills() {
             <p className="text-4xl md:text-5xl font-extrabold">TECHNOLOGIES</p>
           </div>
           <div className="text-3xl text-gray-500 mt-5 font-semibold font-serif">
-            <p>
-              HTML - CSS - JAVASCRIPT - TYPESCRIPT - NEXT.JS - REACT - EXPRESS
-              CHAKRAUI - TAILWIND.CSS - BOOTSTRAP - NODEJS - CANVA - MSEXCEL -
+            <p className="hover:text-orange-400">    
+              HTML , CSS , JAVASCRIPT , TYPESCRIPT , NEXT.JS , REACT , EXPRESS
+              CHAKRA.UI , TAILWIND.CSS , BOOTSTRAP , NODEJS , CANVA , MSEXCEL ,
               SHOPIFY
             </p>
           </div>
