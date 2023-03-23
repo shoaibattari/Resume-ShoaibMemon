@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="md:flex justify-between md:px-[96px] py-[32px] text-center bg-black text-yellow-100">
         <p className=" font-bold">
           All Rights Reserved © | <br className="md:hidden" />
-          <Link href="https://github.com/shoaibattari" target="_blank">
+          <Link href="https://github.com/shoaibattari" target="_blank" className="hover:text-orange-500">
             Shoaib Memon
           </Link>
         </p>
