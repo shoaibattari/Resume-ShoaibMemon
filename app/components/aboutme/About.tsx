@@ -13,7 +13,7 @@ function About() {
             width={400}
             height={300}
             alt={"shoiab memon"}
-            className="rounded-lg opacity-70"
+            className="rounded-lg "
           />
           <div className=" absolute z-10  bg-black bottom-0 right-0 rounded-lg p-1 sm:p-3 lg:p-5 text-center lg:mr-20 md:mr-56 opacity-75">
             <p className="text-7xl text-white font-bold">2+</p>
