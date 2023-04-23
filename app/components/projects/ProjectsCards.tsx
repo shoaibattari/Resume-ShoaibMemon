@@ -21,9 +21,17 @@ const projects: Proj[] = [
     text2: "Panaverse WebPage Next.Js Tailwind Css",
     Site: "https://panaverse-tailwind-shoaibmemon-gmailcom.vercel.app/",
     Github: "https://github.com/shoaibattari/Panaverse-tailwind",
+  },{
+    id: 2,
+    Image: "/api.webp",
+    Alt: "WebDesign1",
+    text1: "APP DESIGN",
+    text2: "Books API Data Fetch And Show With Categories In NEXT.JS",
+    Site: "https://api-learn-shoaibmemon-gmailcom.vercel.app/",
+    Github: "https://github.com/shoaibattari/Api-Learn-Next",
   },
   {
-    id: 2,
+    id: 3,
     Image: "/panaverse-chakra.webp",
     Alt: "WebDesign2",
     text1: "WEB DEVELOPMENT",
@@ -32,7 +40,7 @@ const projects: Proj[] = [
     Github: "https://github.com/shoaibattari/Panaverse",
   },
   {
-    id: 3,
+    id: 4,
     Image: "/Next.js-TodoApp.webp",
     Alt: "WebDesign3",
     text1: "APP DESIGN",
@@ -41,7 +49,7 @@ const projects: Proj[] = [
     Github: "https://github.com/shoaibattari/TODO-APP-NEXTJS",
   },
   {
-    id: 4,
+    id: 5,
     Image: "/Pricing-Ui-Chakra.webp",
     Alt: "WebDesign4",
     text1: "WEB DESIGN",
@@ -50,7 +58,7 @@ const projects: Proj[] = [
     Github: "https://github.com/shoaibattari/next-js-pricing-ui",
   },
   {
-    id: 5,
+    id: 6,
     Image: "/10-cli-project.webp",
     Alt: "WebDesign5",
     text1: "WEB DESIGN",
