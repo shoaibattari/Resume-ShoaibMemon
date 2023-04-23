@@ -78,7 +78,7 @@ function Info() {
 
       <h1 className="flex justify-around text-4xl md:text-5xl text-white  p-5  mt-5">
        <div className="hover:text-orange-500"> <Link href={"https://www.facebook.com/shoaib.attari.399"} target="_blank"> <BsFacebook /></Link></div>
-       <div className="hover:text-orange-500"> <Link href={"https://wa.me/03232579204"} target="_blank">  <BsWhatsapp /></Link></div>
+       <div className="hover:text-orange-500"> <Link href={"https://wa.me/+923232579204"} target="_blank">  <BsWhatsapp /></Link></div>
        <div className="hover:text-orange-500"> <Link href={"https://www.linkedin.com/in/shoaib-memon26"} target="_blank">  <BsLinkedin /></Link></div>
        <div className="hover:text-orange-500"> <Link href={"https://twitter.com/shoaibmemon26"} target="_blank">  <BsTwitter /></Link></div>
        <div className="hover:text-orange-500"> <Link href={"https://www.youtube.com/@shoaibmemon26"} target="_blank">  <BsYoutube /></Link></div>
