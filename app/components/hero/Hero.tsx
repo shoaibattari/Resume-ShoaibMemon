@@ -20,7 +20,7 @@ function Hero() {
             <span className="text-orange-500">SHOAIB </span> MEMON
           </p>
           <div className="mt-3">
-            <Button text={"Contact Me"} link={"https://github.com/shoaibattari"} />
+            <Button text={"Download CV"} link={"https://drive.google.com/file/d/1_BCmubmNpaWqjG92Tl8hvqYKX8YPX7Zh/view"} />
           </div>
         </div>
 
