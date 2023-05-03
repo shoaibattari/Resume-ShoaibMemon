@@ -5,9 +5,6 @@ function page() {
   return (
     <div>
         <Info />
-
-
-
     </div>
   )
 }
