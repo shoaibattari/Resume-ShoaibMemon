@@ -6,6 +6,7 @@ import Link from "next/link";
 import Button from "./Button";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { motion } from "framer-motion";
 
 interface Navbar {
   id: number;
@@ -23,7 +24,11 @@ export const NAV: Navbar[] = [
 function Navbar() {
   let [open, setOpen] = useState(false);
   return (
-    <div className=" w-full top-0 left-0 ">
+    <motion.div
+      initial={{ y: -250 }}
+      animate={{ y: -10 }}
+      className=" w-full top-0 left-0 "
+    >
       <div className="lg:flex items-center justify-between bg-gray-200 py-2 ">
         <div className="duration-500  hover:-translate-x-3.5 md:px-[60px] px-[20px]">
           <Link href="/">
@@ -58,7 +63,7 @@ function Navbar() {
           ))}
         </ul>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
