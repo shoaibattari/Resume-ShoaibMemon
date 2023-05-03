@@ -16,7 +16,7 @@ export const NAV: Navbar[] = [
   { id: 1, name: "Home", link: "/" },
   { id: 2, name: "About", link: "about" },
   { id: 3, name: "Services", link: "services" },
-  { id: 4, name: "Porfolio", link: "projects" },
+  { id: 4, name: "Porfolio", link: "projectContent" },
   { id: 5, name: "Contact", link: "contact" },
 ];
 
