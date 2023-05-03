@@ -44,10 +44,13 @@ function Navbar() {
           }`}
         >
           {NAV.map((link) => (
-            <li key={link.id} className="lg:mr-20 md:text-1xl text-2xl lg:my-0 my-7">
+            <li
+              key={link.id}
+              className="lg:mr-20 md:text-1xl text-2xl lg:my-0 my-7"
+            >
               <Link
                 href={link.link}
-                className=" z-10 text-emerald-800 font-bold hover:text-gray-800 duration-500 hover:text-4xl hover:translate-x-5 flex items-center justify-center"
+                className=" z-10 text-emerald-800 font-bold hover:text-orange-500 hover:underline hover:underline-offset-2 duration-300 hover:text-3xl  flex items-center justify-center"
               >
                 {link.name}
               </Link>
