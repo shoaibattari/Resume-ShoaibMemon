@@ -9,12 +9,12 @@ import Info from "./components/info/Info";
 export default function Home() {
   return (
     <>
-    <Hero />
-    <About />
-    <Quolification />
-    <Services />
-    <Projects />
-    <Info />
+      <Hero />
+      <About />
+      <Quolification />
+      <Services />
+      <Projects />
+      <Info />
     </>
   );
 }
