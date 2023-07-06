@@ -1,7 +1,6 @@
 import React from "react";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 
-
 function Skills() {
   return (
     <>
@@ -11,10 +10,10 @@ function Skills() {
             <p className="text-4xl md:text-5xl font-extrabold">TECHNOLOGIES</p>
           </div>
           <div className="text-3xl text-gray-500 mt-5 font-semibold font-serif">
-            <p className="hover:text-orange-400">    
+            <p className="hover:text-orange-400">
               HTML , CSS , JAVASCRIPT , TYPESCRIPT , NEXT.JS , REACT , EXPRESS
               CHAKRA.UI , TAILWIND.CSS , BOOTSTRAP , NODEJS , CANVA , MSEXCEL ,
-              SHOPIFY
+              SHOPIFY , SHADCN , SANITY.IO ,
             </p>
           </div>
         </div>
