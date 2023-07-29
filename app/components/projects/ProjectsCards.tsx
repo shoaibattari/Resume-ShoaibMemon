@@ -15,6 +15,14 @@ interface Proj {
 const projects: Proj[] = [
   {
     id: 7,
+    Image: "/ssbookshop.webp",
+    Alt: "WebDesign7",
+    text1: "Web App",
+    text2: "SS BOOK SHOP",
+    Site: "https://ss-bkshop-shoaibmemon-gmailcom.vercel.app/",
+    Github: "https://github.com/shoaibattari/Shop",
+  },{
+    id: 7,
     Image: "/contentfull.webp",
     Alt: "WebDesign7",
     text1: "Data App",
@@ -90,7 +98,7 @@ function ProjectsCards() {
               width={700}
               height={300}
               alt={ele.Alt}
-              className="rounded-md  hover:scale-105 delay-100"
+              className="rounded-md  hover:scale-105 delay-105 duration-500 ease-linear "
             />
           </div>
 

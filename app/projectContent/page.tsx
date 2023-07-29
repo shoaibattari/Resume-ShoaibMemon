@@ -43,7 +43,7 @@ export default async function projectContent() {
                         width={700}
                         height={400}
                         alt="project"
-                        className="  hover:scale-105 delay-100 "
+                        className="  hover:scale-105 delay-105 duration-500 ease-linear "
                       />
                     ) : (
                       <div></div>
