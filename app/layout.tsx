@@ -4,9 +4,9 @@ import './globals.css'
 
 export const metadata = {
   title: 'Resume ShoaibMemon',
-  description: 'Create App Next App Resume ShoaibMemon',
+  description: ' Resume Porfolio Shoaib Memon Web developer ',
 }
-
+ 
 export default function RootLayout({
   children,
 }: {
