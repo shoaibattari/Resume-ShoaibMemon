@@ -52,10 +52,10 @@ export default async function projectContent() {
                 ))}
 
                 <div className="p-5 ">
-                <h3 className="text-2xl md:text-3xl text-gray-400 font-serif mt-3 ">
+                <h3 className="text-1xl md:text-2xl text-gray-400 font-serif mt-3 ">
                     {item.fields.projectTitle}
                   </h3>
-                  <h2 className="text-2xl md:text-4xl font-bold text-gray-800 hover:text-orange-500 mt-2 lg:h-24">
+                  <h2 className="text-2xl md:text-3xl font-bold text-gray-800 hover:text-orange-500 mt-2 lg:h-24">
                     {item.fields.projectName}
                   </h2>
                  
