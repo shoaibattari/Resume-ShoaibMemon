@@ -14,7 +14,25 @@ interface Proj {
 
 const projects: Proj[] = [
   {
-    id: 7,
+    id: 10,
+    Image: "/omj-GRAVE.webp",
+    Alt: "WebDesign10",
+    text1: "Next.js, Tailwind-Css, Javascript ",
+    text2: "OMJ GRAVE SEARCH APP (4 GRAVEYARD DATA)",
+    Site: "https://omj-graveyard-2024.vercel.app/",
+    Github: "https://github.com/shoaibattari/omj-graveyard-app",
+  },
+  {
+    id: 9,
+    Image: "/AI_IMAGE_APP.webp",
+    Alt: "WebDesign9",
+    text1: "Next.js, Typescript, Tailwind-Css, RestApi ",
+    text2: "NEXTJS AI TEXT TO IMAGE GENERATE APP",
+    Site: "https://ai-images-shoaib.vercel.app/",
+    Github: "https://github.com/shoaibattari/ai-text-to-image",
+  },
+  {
+    id: 8,
     Image: "/ssbookshop.webp",
     Alt: "WebDesign7",
     text1: "Next.js, Typescript, Tailwind-Css, Sanity, framer-motion ",
