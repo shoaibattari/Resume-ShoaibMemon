@@ -14,6 +14,14 @@ interface Proj {
 
 const projects: Proj[] = [
   {
+    id: 11,
+    Image: "/OMYS.webp",
+    Alt: "WebDesign11",
+    text1: "Next.js, Tailwind-Css, Typescript ",
+    text2: "OMYS FUNDING MEMBERS SEARCHING APP",
+    Site: "https://omys-funding-members.vercel.app/",
+    Github: "https://github.com/shoaibattari/omys-funding-members",
+  },  {
     id: 10,
     Image: "/omj-GRAVE.webp",
     Alt: "WebDesign10",
